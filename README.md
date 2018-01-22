@@ -1,2 +1,3 @@
 # Machine_Learning_AndrewNg
-Homework of "Machine Learning" in Coursera teached by Andrew Ng
+Homework of Andrew Ng's "Machine Learning" course in Coursera.
+https://www.coursera.org/learn/machine-learning/home/welcome
