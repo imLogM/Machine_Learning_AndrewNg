@@ -26,10 +26,10 @@ p = zeros(size(X, 1), 1);
 % y_pred.shape = [5000, 10];
 X = [ones(m, 1) X]; % X.shape = [5000, 400+1]
 
-a1 = sigmoid(X * Theta1');
-a1 = [ones(m, 1) a1]; % a1.shape = [5000, 25+1];
+a2 = sigmoid(X * Theta1');
+a2 = [ones(m, 1) a2]; % a1.shape = [5000, 25+1];
 
-y_pred = sigmoid(a1 * Theta2');
+y_pred = sigmoid(a2 * Theta2');
 
 [ max_num, p] = max(y_pred, [], 2);
 
