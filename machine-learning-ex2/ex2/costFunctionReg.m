@@ -18,7 +18,7 @@ grad = zeros(size(theta));
 %               derivatives of the cost w.r.t. each parameter in theta
 
 
-n = length(theta)
+n = length(theta);
 
 % X.shape = [m, n], y.shape = [m, 1], theta.shape = [n, 1]
 % y_pred = sigmoid(X*theta), y_pred.shape = [m, 1]
